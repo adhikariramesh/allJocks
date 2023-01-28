@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+nav{
+    display: flex;
+    background-color: yellow;
+}
+nav ul {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 12px 15px;
+    margin: 12px 29px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: rgb(65, 63, 61);
+    font-family: 'Roboto', sans-serif;
+}
+nav ul li a:hover{
+  border-bottom: 3px solid gray;
+}
+
+.container{
+    width: 500px;
+    height: 300px;
+    border: 2px solid wheat;
+    background-color: rgb(109, 109, 59);
+    color: wheat;
+    position: absolute;
+    bottom: 200px;
+    left: 400px;
+    border-radius: 20px;
+}
+.container .box{
+    
+    position: relative;
+    
+}
+.container .box p{
+    color: wheat;
+    text-align: center;
+    padding: 20px 5px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+.container #converImg{
+    
+}
+.container #coverImg img{
+    width: 494px;
+    height: 175px;
+    border-bottom-left-radius: 22px;
+    border-bottom-right-radius: 22px;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(119, 78, 78);
+    background-color: rgb(9, 22, 197);
+    position: relative;
+    width: 70%;
+    top: 400px;
+    left:15%;
+
+}
+.icons i{
+    color: wheat;
+    font-size: 50px;
+    padding: 2px 5px;
+    margin: 2px 20px;
+   cursor: pointer;
+    
+}
